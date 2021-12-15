@@ -43,7 +43,7 @@ function timer() {
 //Add Event Listener
 btnStart.addEventListener("click", start);
 btnStop.addEventListener("click", stop);
-btnReset.addEventListener("click", resettimer);
+btnReset.addEventListener("click", reset);
 
 //Functions
 function start() {
@@ -71,7 +71,7 @@ function reset() {
   minutesText.innerHTML = minutes;
 }
 
-function resettimer() {
-  reset();
-  start();
-}
+// function resettimer() {
+//   reset();
+//   start();
+// }
